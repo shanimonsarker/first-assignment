@@ -4,8 +4,8 @@ nav{
 }  
 
 nav {
-    width: 70%;
-    max-width: 1600px;
+    width: 90%;
+    max-width: 1700px;
     margin: 0px auto;
 }
 nav .menu{
@@ -13,4 +13,45 @@ nav .menu{
     list-style: none;
     gap: 50px;
     align-items: center;
+}
+.early{
+    margin-left: 600px;
+    gap: 1000px;
+    background-color: #30B868;
+}
+body{
+    background-color: blue;
+}
+nav{
+    background-color: blanchedalmond;
+}
+.herotext {
+    text-align: center;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+    height: 500px;
+    background-image: url(/assets/hero-bg.png);
+    align-items: center;
+    padding-top: 150px;
+}
+.Sec-line{
+    color: #30B868;
+}
+.button{display: flex;
+justify-content: center;
+list-style: none;
+gap: 30px;
+padding: 5px;}
+
+.notes{
+    text-align: center;
+    justify-content: center;
+    color: rgb(6, 6, 6);
+    align-items: center;
+}
+.you{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    align-content: center;
 }
