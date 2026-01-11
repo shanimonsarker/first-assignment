@@ -36,6 +36,7 @@ nav{
     color: rgb(252, 252, 252);
     height: 500px;
     background-image: url(/assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     align-items: center;
     padding-top: 150px;
 }
