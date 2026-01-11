@@ -19,12 +19,17 @@ nav .menu{
     gap: 1000px;
     background-color: #30B868;
 }
-body{
-    background-color: blue;
-}
+
 nav{
-    background-color: blanchedalmond;
+    background-color: rgba(252, 252, 250, 0.958);
 }
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
 .herotext {
     text-align: center;
     justify-content: center;
@@ -54,4 +59,73 @@ padding: 5px;}
     justify-content: center;
     color: black;
     align-content: center;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    width: 300px;
+    border: 2px solid rgb(251, 253, 253);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgba(199, 199, 197, 0.238);
+}
+.card img{
+    width: 20px;
+    border-radius: 30px;
+    background-color: chocolate;
+    padding: 10px;
+}
+.card-section{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.heading{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.brain-section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 500px;
+}
+.brain{
+    height: 100px;   
+}
+.circle{
+    display: flex;
+    
+}
+.circle img{
+    width: 20px;
+    height: 20px;
+}
+.social img{
+    border-radius: 90px;
+    height: 20px;
+}
+.social{
+    margin-left: 1200px;
+    
+}
+.fotter-img{
+    margin-left: 50px;
+    height: 40px;
+}
+.footer{
+    background-color: rgb(5, 39, 71);
+    height: 220px;
+    padding-top: 50px;
+    box-sizing: border-box; 
+    color: white;
+    
+}
+.img-social {
+display: flex;
 }
